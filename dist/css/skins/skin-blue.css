@@ -59,15 +59,24 @@
 .skin-blue .wrapper,
 .skin-blue .main-sidebar,
 .skin-blue .left-side {
-  background-color: #222d32;
+  background-image: url("../../img/rocketATM-admin-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: inherit;
 }
 .skin-blue .user-panel > .info,
 .skin-blue .user-panel > .info > a {
   color: #fff;
 }
+.skin-blue .sidebar {
+  background: -webkit-linear-gradient(top, rgba(29, 199, 234, 0.8), #4090ff);
+  background: -o-linear-gradient(top, rgba(29, 199, 234, 0.8), #4090ff);
+  background: -moz-linear-gradient(top, rgba(29, 199, 234, 0.8), #4090ff);
+  background: linear-gradient(top, rgba(29, 199, 234, 0.8), #4090ff);
+}
 .skin-blue .sidebar-menu > li.header {
-  color: #4b646f;
-  background: #1a2226;
+  color: #7adef3;
+  background: #15bcde;
 }
 .skin-blue .sidebar-menu > li > a {
   border-left: 3px solid transparent;
@@ -75,40 +84,40 @@
 .skin-blue .sidebar-menu > li:hover > a,
 .skin-blue .sidebar-menu > li.active > a {
   color: #ffffff;
-  background: #1e282c;
+  background: #3c8dbc;
   border-left-color: #3c8dbc;
 }
 .skin-blue .sidebar-menu > li > .treeview-menu {
   margin: 0 1px;
-  background: #2c3b41;
+  background: rgba(255, 255, 255, 0.4);
 }
 .skin-blue .sidebar a {
-  color: #b8c7ce;
+  color: #ffffff;
 }
 .skin-blue .sidebar a:hover {
   text-decoration: none;
 }
 .skin-blue .treeview-menu > li > a {
-  color: #8aa4af;
+  color: #ffffff;
 }
 .skin-blue .treeview-menu > li.active > a,
 .skin-blue .treeview-menu > li > a:hover {
-  color: #ffffff;
+  color: #e6e6e6;
 }
 .skin-blue .sidebar-form {
   border-radius: 3px;
-  border: 1px solid #374850;
+  border: 1px solid #4cd3ee;
   margin: 10px 10px;
 }
 .skin-blue .sidebar-form input[type="text"],
 .skin-blue .sidebar-form .btn {
   box-shadow: none;
-  background-color: #374850;
+  background-color: #4cd3ee;
   border: 1px solid transparent;
   height: 35px;
 }
 .skin-blue .sidebar-form input[type="text"] {
-  color: #666;
+  color: #ffffff;
   border-top-left-radius: 2px;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
@@ -122,8 +131,24 @@
 .skin-blue .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
   border-left-color: #fff;
 }
+.skin-blue .sidebar-form input::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #ffffff;
+}
+.skin-blue .sidebar-form input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #ffffff;
+}
+.skin-blue .sidebar-form input:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #ffffff;
+}
+.skin-blue .sidebar-form input:-moz-placeholder {
+  /* Firefox 18- */
+  color: #ffffff;
+}
 .skin-blue .sidebar-form .btn {
-  color: #999;
+  color: #ffffff;
   border-top-left-radius: 0;
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;

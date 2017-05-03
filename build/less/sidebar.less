@@ -93,17 +93,29 @@
     margin: 0;
     padding: 0;
     > a {
-      padding: 12px 5px 12px 15px;
+      padding: 12px 5px 12px 8px;
       display: block;
+      text-transform: uppercase;
       > .fa,
       > .glyphicon,
       > .ion {
-        width: 20px;
+        width: 30px;
       }
+      > .fa{
+        font-size: 28px;
+        margin-right: 15px;
+        height: 30px;
+      }
+      > span{
+          display: inline-block;
+          line-height: 30px;
+          vertical-align: top;
+      }  
     }
     .label,
     .badge {
       margin-right: 5px;
+      line-height: 1.7;
     }
     .badge {
       margin-top: 3px;
@@ -152,11 +164,22 @@
         padding: 5px 5px 5px 15px;
         display: block;
         font-size: 14px;
+        text-transform: uppercase;
         > .fa,
         > .glyphicon,
         > .ion {
-          width: 20px;
+          width: 30px;
         }
+        > .fa{
+        font-size: 28px;
+        margin-right: 15px;
+        height: 30px;
+        }
+        > span{
+            display: inline-block;
+            line-height: 30px;
+            vertical-align: top;
+        }  
         > .pull-right-container > .fa-angle-left,
         > .pull-right-container > .fa-angle-down,
         > .fa-angle-left,

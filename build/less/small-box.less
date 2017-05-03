@@ -9,12 +9,17 @@
   display: block;
   margin-bottom: 20px;
   box-shadow: @box-boxshadow;
-  // content wrapper
-  > .inner {
-    padding: 10px;
-  }
+  .small-box-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: @white;
+    // content wrapper
+    > .inner {
+      padding: 10px;
+    }
 
-  > .small-box-footer {
+  .small-box-footer {
     position: relative;
     text-align: center;
     padding: 3px 0;
@@ -30,47 +35,49 @@
     }
   }
 
-  h3 {
-    font-size: 38px;
-    font-weight: bold;
-    margin: 0 0 10px 0;
-    white-space: nowrap;
-    padding: 0;
+    h3 {
+      font-size: 38px;
+      font-weight: bold;
+      margin: 0 0 10px 0;
+      white-space: nowrap;
+      padding: 0;
 
-  }
-
-  p {
-    font-size: 15px;
-    > small {
-      display: block;
-      color: #f9f9f9;
-      font-size: 13px;
-      margin-top: 5px;
     }
-  }
 
-  h3, p {
-    z-index: 5;
-  }
+    p {
+      font-size: 15px;
+      > small {
+        display: block;
+        color: #f9f9f9;
+        font-size: 13px;
+        margin-top: 5px;
+      }
+    }
 
-  // the icon
-  .icon {
-    .transition(all @transition-speed linear);
-    position: absolute;
-    top: -10px;
-    right: 10px;
-    z-index: 0;
-    font-size: 90px;
-    color: rgba(0, 0, 0, 0.15);
-  }
+    h3, p {
+      z-index: 5;
+    }
 
-  // Small box hover state
-  &:hover {
-    text-decoration: none;
-    color: #f9f9f9;
-    // Animate icons on small box hover
+    // the icon
     .icon {
-      font-size: 95px;
+      .transition(all @transition-speed linear);
+      position: absolute;
+      top: -10px;
+      right: 10px;
+      z-index: 0;
+      font-size: 90px;
+      color: rgba(0, 0, 0, 0.15);
+
+    }
+
+    // Small box hover state
+    &:hover {
+      text-decoration: none;
+      color: #f9f9f9;
+      // Animate icons on small box hover
+      .icon {
+        font-size: 95px;
+      }
     }
   }
 }
@@ -80,7 +87,7 @@
   .small-box {
     text-align: center;
     .icon {
-      display: none;
+      font-size: 50px;
     }
     p {
       font-size: 12px;
