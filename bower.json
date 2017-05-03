@@ -1,12 +1,12 @@
 {
-  "name": "admin-lte",
-  "homepage": "http://almsaeedstudio.com",
+  "name": "rocketATM",
+  "homepage": "https://rocketatm.com",
   "authors": [
-    "Kryvda Yaroslav <abdullah@almsaeedstudio.com>"
+    "Kryvda Yaroslav <yaroslavkryvda@gmail.com>"
   ],
-  "description": "Admin dashboard and control panel template",
+  "description": "Custom admin dashboard and control panel template, used AdminLTE",
   "main": [
-    "index2.html",
+    "index.html",
     "dist/css/AdminLTE.css",
     "dist/js/app.js",
     "build/less/AdminLTE.less"
