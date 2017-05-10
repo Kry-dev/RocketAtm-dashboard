@@ -1604,6 +1604,9 @@ a:focus {
   .small-box {
     text-align: center;
   }
+  .small-box .small-box-link h3 {
+    font-size: 30px;
+  }
   .small-box .icon {
     font-size: 50px;
   }
